@@ -1,3 +1,20 @@
+## Run Laravel without Artisan Using Wamp
+
+	- Create new laravel project inside wwww directory.
+	- Change storage permission folder by running following command: -
+		- sudo chmod -R o+w storage/ .
+	- Change server.php to index.php (@ root directory).
+	- copy .htaccess from public to root directory.
+	- run following http://localhost/path/to/public/larvel/project/you/create/ .
+
+## Credit
+
+	- [Stackoverflow: How to run Laravel without Artisan?](https://stackoverflow.com/a/30053989/4216992).
+
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
